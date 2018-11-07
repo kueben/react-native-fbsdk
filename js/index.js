@@ -80,4 +80,8 @@ module.exports = {
   get ShareButton() {
     return require('./FBShareButton');
   },
+
+  get AppLinks() {
+    return require('./FBAppLinks');
+  }
 };
